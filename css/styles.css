@@ -77,12 +77,14 @@ address {
   color: #2c2c2c;
   background: #bbf330;
   border: none;
+  cursor: pointer;
 }
 
 .hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 47px;
 }
 .hero-wrap {
   width: 500px;
@@ -109,6 +111,9 @@ address {
   background: #bbf330;
   margin-top: 40px;
 }
+.offerings-wrap {
+  text-align: left;
+}
 .hero-img--wrapper {
   width: 580px;
   border: 31px solid #ffe550;
@@ -122,6 +127,7 @@ address {
   align-items: center;
   justify-content: space-between;
   background: #ffe550;
+  margin-bottom: 128px;
 }
 
 .offerings-title {
@@ -132,6 +138,7 @@ address {
   margin-bottom: 20px;
   width: 526px;
   height: 100px;
+  font-family: "Roboto", sans-serif;
 }
 .offerings-text {
   font-weight: 400;
@@ -141,6 +148,7 @@ address {
   width: 500px;
   height: 27px;
   margin-bottom: 96px;
+  font-family: "Roboto", sans-serif;
 }
 .offerings-img-wrapper {
   display: flex;
@@ -151,8 +159,7 @@ address {
   display: flex;
   gap: 27px;
 }
-.offerings-list-item {
-}
+
 .offerings-sybtitle {
   font-weight: 700;
   font-size: 18px;
@@ -182,6 +189,15 @@ address {
   font-size: 13px;
   line-height: 1.5;
   color: #2c2c2c;
+  cursor: pointer;
 }
-.offerings-img {
+
+.offerings-btn:focus,
+.oferings-btn:hover {
+  background: #bbf330;
 }
+.dishes-list {
+  display: flex;
+  gap: 32px;
+}
+
